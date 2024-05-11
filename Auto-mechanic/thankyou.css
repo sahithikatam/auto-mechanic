@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+    background-color: rgb(21, 35, 81);
+    color: white;
+    height:40px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.nav-icon{
+    padding-left: 5px;
+}
+.nav-header{
+    width: 60vw;;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.nav-items{
+    display:flex;
+    align-items:center;
+}
+.nav-brand{
+    padding-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+.item{
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+.nav-brand:hover{
+    background-color: orange;
+    background-size: cover;
+}
+.item:hover{
+    background-color: orange;
+    background-size: cover;
+}
+.container{
+    margin-top: 150px;
+}
+.thank-img{
+    width:600px;
+    height: 300px;
+}
+.thank-head{
+    font-weight: bold;
+}
+footer{
+    background-color: rgb(21, 35, 81);
+    width: 100vw;
+    color: white;
+    text-align: center; 
+    position: relative;
+    top: 29vh;
+}
+
+

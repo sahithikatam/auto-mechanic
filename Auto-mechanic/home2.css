@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.navbar{
+    background-color: rgb(21, 35, 81);
+    color: white;
+    height:40px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.nav-icon{
+    padding-left: 5px;
+}
+.nav-header{
+    width: 70vw;;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.nav-items{
+    display:flex;
+    align-items:center;
+}
+.nav-brand{
+    padding-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+.item{
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+.nav-brand:hover{
+    background-color: orange;
+    background-size: cover;
+}
+.item:hover{
+    background-color: orange;
+    background-size: cover;
+}
+.item_img{
+    height: 92vh;
+    width: 100vw;
+    background-image: url("./assets/home1.jpg");
+    position: absolute;
+    background-size: cover;
+}
+.info{
+    margin-bottom:20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 350px;
+}
+.btn{
+    height:40px;
+    width: 180px;
+    background-color: rgb(172, 72, 89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 650px;
+    margin-top: 20px;
+    border-width: 0;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    background-color: rgb(21, 35, 81);
+    width: 100vw;
+    color: white;
+    text-align: center; 
+    position: relative;
+    top: 92vh;
+}
+
+

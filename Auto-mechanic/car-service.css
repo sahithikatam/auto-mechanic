@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(21, 35, 81);
+    color: white;
+    height:40px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.nav-icon{
+    padding-left: 5px;
+}
+.nav-header{
+    width: 70vw;;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.nav-items{
+    display:flex;
+    align-items:center;
+}
+.nav-brand{
+    padding-left: 5px;
+    text-decoration: none;
+    color: white;
+}
+.item{
+    padding-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+.nav-brand:hover{
+    background-color: orange;
+    background-size: cover;
+}
+.item:hover{
+    background-color: orange;
+    background-size: cover;
+}
+body{
+    background-color: whitesmoke;
+}
+.card{
+    margin: 100px;
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: left;
+}
+.card-body{
+    margin-left: 40px;;
+}
+.card-title{
+    padding-top: 15px;
+}
+.text-danger{
+    color: red;
+    padding-top: 5px;
+}
+.card-text{
+    padding-top: 15px;
+}
+.card-list{
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.offer{
+    padding-top: 20px;
+}
+.btn{
+    height: 30px;
+    width: 120px;
+    color: white;
+    margin-top: 30px;
+    background-color: orangered;
+    text-decoration: none;
+    border: none;
+}
+.btn:hover{
+    box-shadow: 1px 1px 2px 2px rgb(154, 153, 153);
+}
+.btn1{
+    color: white;
+    text-decoration: none;
+}
+footer{
+    background-color: rgb(21, 35, 81);
+    width: 100vw;
+    color: white;
+    text-align: center; 
+    position: absolute;
+    top: 97.2vh;
+}
